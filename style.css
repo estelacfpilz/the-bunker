@@ -150,3 +150,23 @@ footer p {
 .social-banner {
     background-position: 50% 17%;
 }
+
+/* Resposiveness */
+
+
+/* SM - max width in pixels 768px */
+@media(max-width: 48em){
+    .hide-sm { display: none; }
+
+    .flip-sm { flex-direction: column-reverse; }
+
+    h1 { font-size: 4rem; }
+
+    footer h2 { font-size: 3rem; }
+
+    .social-banner {
+        background-image: none; 
+        background-color: #1C2A2C;
+        min-height: 30vh;
+    }
+}
